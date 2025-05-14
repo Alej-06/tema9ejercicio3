@@ -79,7 +79,6 @@ public class DAOserie {
 	public List<Serie> selectAllSeries() {
 		Transaction transaction=null;
 		List<Serie> series=null;
-		Serie s=null;
 		try (Session session=HibernateUtil.getSessionFactory().openSession()){
 			transaction=session.beginTransaction();
 			series=session.createQuery("from Serie",Serie.class).getResultList();

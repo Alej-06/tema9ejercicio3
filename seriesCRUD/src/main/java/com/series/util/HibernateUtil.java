@@ -21,7 +21,7 @@ public class HibernateUtil {
 				
 				Properties settings = new Properties();
 				settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-				settings.put(Environment.URL, "jdbc:mysql://localhost:3307/series?useSSL=false");
+				settings.put(Environment.URL, "jdbc:mysql://localhost:3307/netflix?useSSL=false");
 				settings.put(Environment.USER, "alumno");
 				settings.put(Environment.PASS, "alumno");
 				settings.put(Environment.SHOW_SQL, "false");

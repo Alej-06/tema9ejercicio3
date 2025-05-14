@@ -13,16 +13,16 @@ public class Serie {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@Column(name="idserie")
+	@Column(name="id")
 	int id;
 	
-	@Column(name="nombre")
+	@Column(name="titulo")
 	String nombre;
 	
 	@Column(name="temporadas")
 	int temporadas;
 	
-	@Column(name="capitulos")
+	@Column(name="episodios")
 	int capitulos;
 	
 	public Serie() {
