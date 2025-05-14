@@ -146,8 +146,8 @@ public class App {
 					Object[] row=new Object[4];
 					row[0]=ls.get(i).getId();
 					row[1]=ls.get(i).getNombre();
-					row[2]=ls.get(i).getTemporadas();
-					row[3]=ls.get(i).getCapitulos();
+					row[3]=ls.get(i).getTemporadas();
+					row[2]=ls.get(i).getCapitulos();
 					model.addRow(row);
 				}
 			}
