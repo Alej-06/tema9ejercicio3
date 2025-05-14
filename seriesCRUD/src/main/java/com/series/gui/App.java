@@ -73,8 +73,8 @@ public class App {
 		};
 		
 		model.addColumn("ID");
-		model.addColumn("Título");
-		model.addColumn("Nº temporadas");
+		model.addColumn("TÃ­tulo");
+		model.addColumn("NÂº temporadas");
 		model.addColumn("Total episodios");
 		
 		ls=ds.selectAllSeries();
